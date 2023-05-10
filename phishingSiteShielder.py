@@ -116,8 +116,8 @@ get_accuracy('LinearSVC', trained_clf_svc, x_train, y_train, x_test, y_test)
 
 
 # Create the 'Models' directory if it does not exist
-if not os.path.exists('./Phishing Site Shielder/Models'):
-    os.makedirs('./Phishing Site Shielder/Models')
+if not os.path.exists('./Phishing Site Shielder/Model'):
+    os.makedirs('./Phishing Site Shielder/Model')
 
 # Defining a function to save the model
 def save_model(model, filename):
